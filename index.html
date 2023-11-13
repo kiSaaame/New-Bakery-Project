@@ -11,24 +11,25 @@
 <body>
   <header>
     <nav>
-      <a href="#">
+      <a href="./index.html">
         <img src="./img/logo.svg" alt="Логотип сучасної пекарні" />
       </a>
 
       <ul>
-        <li><a href="#">Наші традиції</a></li>
-        <li><a href="#">Шеф-кухарі</a></li>
-        <li><a href="#">Формати</a></li>
-        <li><a href="#">Контакти</a></li>
+        <li><a href="#traditions-section">Наші традиції</a></li>
+        <li><a href="#chefs">Шеф-кухарі</a></li>
+        <li><a href="#formats">Формати</a></li>
+        <li><a href="#contacts">Контакти</a></li>
       </ul>
     </nav>
     <button type="button">Замовити дзвінок</button>
   </header>
+
   <main>
     <section>
       <h1>Сучасна пекарня</h1>
     </section>
-    <section>
+    <section id="traditions-section">
       <ul>
         <li>Великий попит на ринку</li>
         <li>Доступні за бюджетом формати</li>
@@ -46,7 +47,7 @@
       </p>
       <img src="./img/baker.jpg" alt="Чоловік пекар дивиться на батони із посмішкою">
     </section>
-    <section>
+    <section id="chefs">
       <h2>Наші найкращі шеф-кухарі</h2>
       <ul>
         <li>
@@ -74,12 +75,12 @@
 
 
     </section>
-    <section>
+    <section id="formats">
       <h2>Формати</h2>
       <ul>
         <li>
           <article>
-            <h3>Walrus</h3>
+            <h3 lang="en">Walrus</h3>
 
             <p>Площа: до 120 м2</p>
             <p>Меню: розширене меню</p>
@@ -92,7 +93,7 @@
         </li>
         <li>
           <article>
-            <h3>Horseshoe</h3>
+            <h3 lang="en">Horseshoe</h3>
             <p>Площа: до 25 м2</p>
             <p>Меню: найпопулярніші позиції меню</p>
             <p>Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря</p>
@@ -101,7 +102,7 @@
         </li>
         <li>
           <article>
-            <h3>Handlebar</h3>
+            <h3 lang="en">Handlebar</h3>
             <p>Площа: до 15 м2</p>
             <p>Меню: найпопулярніші позиції меню</p>
             <p>Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>
@@ -113,8 +114,11 @@
 
 
     </section>
-    <section>
+    <section id="contacts">
       <h2>Приєднуйтеся до мережі пекарень</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.163871257641!2d30.488658576288795!3d50.456673086916105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1699868255479!5m2!1suk!2sua"
+        width="603" height="595" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <p>Заповни форму, щоб ми зв'язались з тобою!</p>
     </section>
   </main>
@@ -125,10 +129,10 @@
         <img src="./img/logo.svg" alt="Логотип сучасної пекарні" />
       </a>
       <ul>
-        <li><a href="#">Наші традиції</a></li>
-        <li><a href="#">Шеф-кухарі</a></li>
-        <li><a href="#">Формати</a></li>
-        <li><a href="#">Контакти</a></li>
+        <li><a href="#traditions-section">Наші традиції</a></li>
+        <li><a href="#chefs">Шеф-кухарі</a></li>
+        <li><a href="#formats">Формати</a></li>
+        <li><a href="#contacts">Контакти</a></li>
       </ul>
     </nav>
     <address>
@@ -141,12 +145,12 @@
           <!--facebook icon-->
           <a href="#"></a>
         </li>
-        <li><!--inst icon--></li>
-        <a href="#"></a>
-
+        <li><!--inst icon-->
+          <a href="#"></a>
+        </li>
       </ul>
       <a href="#" target="_blank">Політика конфіденційності</a>
-      <p>© 2022 Дані захищені</p>
+      <p>&copy; 2022 Дані захищені</p>
     </address>
   </footer>
 </body>
